@@ -1,0 +1,20 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "browsers": ["chrome >= 62"]
+      }
+    }]
+  ],
+  "env": {
+    "production": {
+      "presets": [
+        ["@babel/preset-env", {
+          "targets": {
+            "browsers": ["chrome >= 62"]
+          }
+        }]
+      ]
+    }
+  }
+}
