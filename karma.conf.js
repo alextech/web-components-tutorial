@@ -1,10 +1,11 @@
-let MiniCssExtractPlugin = require("mini-css-extract-plugin");
+// let MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = function(config) {
   config.set({
     frameworks: ['mocha', 'chai'],
     files: [
-      {pattern: 'src/**/*.test.js', watched: false}
+      'https://unpkg.com/chai@4.2.0/chai.js',
+      {pattern: 'test/**/*.test.js', type: 'module', watched: false}
       // {pattern: 'test-context.js', watched: false}
     ],
     reporters: ['progress', 'junit'],
@@ -15,36 +16,14 @@ module.exports = function(config) {
     customLaunchers: {
       ChromeHeadless_Custom: {
         base: 'Chrome',
-        flags: ['--headless', '--disable-gpu', '--remote-debugging-port=9222']
+        flags: []
       }
     },
     // autoWatch: false,
     // singleRun: false, // Karma captures browsers, runs the tests and exits
     // concurrency: Infinity,
-    preprocessors: {
-      'src/**/*.test.js': ['webpack']
-    },
-    webpack: {
-      devtool: 'inline-source-map',
-      module: {
-        rules: [
-          {test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader'},
-          {
-            test: /\.scss$/, use: [
-              MiniCssExtractPlugin.loader,
-              'css-loader?sourceMap',
-              'sass-loader?sourceMap'
-            ]
-          },
-          {test: /\.(svg)$/, use: 'raw-loader'},
-        ]
-      },
-    },
     webpackMiddleware: {
       stats: 'errors-only'
     }
-    // webpackServer: {
-    //   noInfo: true
-    // }
   });
 };

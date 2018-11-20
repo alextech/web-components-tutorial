@@ -1,7 +1,3 @@
-import './index.scss';
-
-import 'admin-lte/build/js/AdminLTE'
-
-import {hello} from './domain/model';
+import {hello} from './domain/model.js';
 
 hello();

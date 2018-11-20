@@ -8,6 +8,16 @@ You can use issue tracker to report problems or suggestions.
 
 ---
 
+Before starting the application install [Node.js](https://nodejs.orgNode.js) and [Browsersync](https://browsersync.io).
+
+To start application, from within `src` directory run
+
+```shell
+browser-sync start --server --files="**/*"
+```
+
+---
+
 Thank you very much for the donation offers! These tutorials are very long to produce.  Extra donations
 will help towards doing this work sustainably without going on extended breaks.
 
