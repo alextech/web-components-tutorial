@@ -5,8 +5,8 @@ module.exports = function(config) {
     frameworks: ['mocha', 'chai'],
     files: [
       'https://unpkg.com/chai@4.2.0/chai.js',
-      {pattern: 'test/**/*.test.js', type: 'module', watched: false}
-      // {pattern: 'test-context.js', watched: false}
+      {pattern: 'src/**/*.test.js', type: 'module', watched: false},
+      {pattern: 'src/**/*.js', type: 'module', included: true, served: true, nocache: true}
     ],
     reporters: ['progress', 'junit'],
     port: 9877,  // karma web server port

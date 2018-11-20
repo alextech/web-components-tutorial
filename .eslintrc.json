@@ -15,7 +15,8 @@
     "mocha": true
   },
   "globals": {
-    "assert": true
+    "assert": true,
+    "expect": true
   },
   "rules": {
     "no-console": 1
