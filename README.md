@@ -8,7 +8,7 @@ You can use issue tracker to report problems or suggestions.
 
 ---
 
-Before starting the application install [Node.js](https://nodejs.orgNode.js) and [Browsersync](https://browsersync.io).
+Before starting the application install [Node.js](https://nodejs.org) and [Browsersync](https://browsersync.io).
 
 To start application, from within `src` directory run
 
