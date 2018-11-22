@@ -8,12 +8,24 @@ You can use issue tracker to report problems or suggestions.
 
 ---
 
-Before starting the application install [Node.js](https://nodejs.org) and [Browsersync](https://browsersync.io).
+Before starting the application install [Node.js](https://nodejs.org), [Yarn](https://yarnpkg.com), and [Browsersync](https://browsersync.io).
 
 To start application, from within `src` directory run
 
 ```shell
 browser-sync start --server --files="**/*"
+```
+
+To run unit tests, install needed dependencies with
+
+```shell
+yarn install
+```
+
+then run tests from within IDE or with
+
+```shell
+yarn test
 ```
 
 ---
