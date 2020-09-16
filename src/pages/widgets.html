@@ -1,32 +1,28 @@
 <!DOCTYPE html>
-<!--
-This is a starter template page. Use this page to start your new project from
-scratch. This page gets rid of all links and provides the needed markup only.
--->
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AdminLTE 3 | Widgets</title>
+  <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-  <title>AdminLTE 3 | Starter</title>
-
-  <link rel="stylesheet" href="../css/adminlte.css">
-
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../css/adminlte.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
-
   <!-- Navbar -->
-  <nav class="main-header navbar navbar-expand bg-white navbar-light border-bottom">
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" data-widget="pushmenu" href="#"><i class="fa fa-bars"></i></a>
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="/" class="nav-link">Home</a>
@@ -42,7 +38,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
         <div class="input-group-append">
           <button class="btn btn-navbar" type="submit">
-            <i class="fa fa-search"></i>
+            <i class="fas fa-search"></i>
           </button>
         </div>
       </div>
@@ -53,21 +49,21 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <!-- Messages Dropdown Menu -->
       <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown" href="#">
-          <i class="fa fa-comments-o"></i>
+          <i class="far fa-comments"></i>
           <span class="badge badge-danger navbar-badge">3</span>
         </a>
         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="../img/user1-128x128.jpg" alt="User Avatar" class="../img-size-50 mr-3 img-circle">
+              <img src="../img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Brad Diesel
-                  <span class="float-right text-sm text-danger"><i class="fa fa-star"></i></span>
+                  <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
                 </h3>
                 <p class="text-sm">Call me whenever you can...</p>
-                <p class="text-sm text-muted"><i class="fa fa-clock-o mr-1"></i> 4 Hours Ago</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
               </div>
             </div>
             <!-- Message End -->
@@ -76,14 +72,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="../img/user8-128x128.jpg" alt="User Avatar" class="../img-size-50 img-circle mr-3">
+              <img src="../img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   John Pierce
-                  <span class="float-right text-sm text-muted"><i class="fa fa-star"></i></span>
+                  <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
                 </h3>
                 <p class="text-sm">I got your message bro</p>
-                <p class="text-sm text-muted"><i class="fa fa-clock-o mr-1"></i> 4 Hours Ago</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
               </div>
             </div>
             <!-- Message End -->
@@ -92,14 +88,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="../img/user3-128x128.jpg" alt="User Avatar" class="../img-size-50 img-circle mr-3">
+              <img src="../img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Nora Silvester
-                  <span class="float-right text-sm text-warning"><i class="fa fa-star"></i></span>
+                  <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
                 </h3>
                 <p class="text-sm">The subject goes here</p>
-                <p class="text-sm text-muted"><i class="fa fa-clock-o mr-1"></i> 4 Hours Ago</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
               </div>
             </div>
             <!-- Message End -->
@@ -111,24 +107,24 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <!-- Notifications Dropdown Menu -->
       <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown" href="#">
-          <i class="fa fa-bell-o"></i>
+          <i class="far fa-bell"></i>
           <span class="badge badge-warning navbar-badge">15</span>
         </a>
         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-          <span class="dropdown-header">15 Notifications</span>
+          <span class="dropdown-item dropdown-header">15 Notifications</span>
           <div class="dropdown-divider"></div>
           <a href="#" class="dropdown-item">
-            <i class="fa fa-envelope mr-2"></i> 4 new messages
+            <i class="fas fa-envelope mr-2"></i> 4 new messages
             <span class="float-right text-muted text-sm">3 mins</span>
           </a>
           <div class="dropdown-divider"></div>
           <a href="#" class="dropdown-item">
-            <i class="fa fa-users mr-2"></i> 8 friend requests
+            <i class="fas fa-users mr-2"></i> 8 friend requests
             <span class="float-right text-muted text-sm">12 hours</span>
           </a>
           <div class="dropdown-divider"></div>
           <a href="#" class="dropdown-item">
-            <i class="fa fa-file mr-2"></i> 3 new reports
+            <i class="fas fa-file mr-2"></i> 3 new reports
             <span class="float-right text-muted text-sm">2 days</span>
           </a>
           <div class="dropdown-divider"></div>
@@ -136,8 +132,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#"><i
-                class="fa fa-th-large"></i></a>
+        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+          <i class="fas fa-th-large"></i>
+        </a>
       </li>
     </ul>
   </nav>
@@ -157,7 +154,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="../img/user2-160x160.jpg" class="../img-circle elevation-2" alt="User Image">
+          <img src="../img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">Alexander Pierce</a>
@@ -169,24 +166,24 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item has-treeview">
+          <li class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-dashboard"></i>
+              <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Starter Pages
-                <i class="right fa fa-angle-left"></i>
+                <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
+                <a href="/" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
                   <p>Active Page</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
+                  <i class="far fa-circle nav-icon"></i>
                   <p>Inactive Page</p>
                 </a>
               </li>
@@ -194,14 +191,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link active">
-              <i class="nav-icon fa fa-th"></i>
+              <i class="nav-icon fas fa-th"></i>
               <p>
                 Widgets
                 <span class="right badge badge-danger">New</span>
               </p>
             </a>
           </li>
-          <li class="nav-item has-treeview">
+          <li class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link">
               <i class="nav-icon fa fa-edit"></i>
               <p>
@@ -211,8 +208,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="/pages/forms/general.html" class="nav-link">
-                  <i class="fa fa-circle-o nav-icon"></i>
+                <a href="forms/general.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
                   <p>General Elements</p>
                 </a>
               </li>
@@ -251,7 +248,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div class="row">
           <div class="col-md-3 col-sm-6 col-12">
             <div class="info-box">
-              <span class="info-box-icon bg-info"><i class="fa fa-envelope-o"></i></span>
+              <span class="info-box-icon bg-info"><i class="far fa-envelope"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Messages</span>
@@ -264,7 +261,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <!-- /.col -->
           <div class="col-md-3 col-sm-6 col-12">
             <div class="info-box">
-              <span class="info-box-icon bg-success"><i class="fa fa-flag-o"></i></span>
+              <span class="info-box-icon bg-success"><i class="far fa-flag"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Bookmarks</span>
@@ -277,7 +274,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <!-- /.col -->
           <div class="col-md-3 col-sm-6 col-12">
             <div class="info-box">
-              <span class="info-box-icon bg-warning"><i class="fa fa-files-o"></i></span>
+              <span class="info-box-icon bg-warning"><i class="far fa-copy"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Uploads</span>
@@ -290,7 +287,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <!-- /.col -->
           <div class="col-md-3 col-sm-6 col-12">
             <div class="info-box">
-              <span class="info-box-icon bg-danger"><i class="fa fa-star-o"></i></span>
+              <span class="info-box-icon bg-danger"><i class="far fa-star"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Likes</span>
@@ -309,7 +306,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div class="row">
           <div class="col-md-3 col-sm-6 col-12">
             <div class="info-box bg-info">
-              <span class="info-box-icon"><i class="fa fa-bookmark-o"></i></span>
+              <span class="info-box-icon"><i class="far fa-bookmark"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Bookmarks</span>
@@ -329,7 +326,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <!-- /.col -->
           <div class="col-md-3 col-sm-6 col-12">
             <div class="info-box bg-success">
-              <span class="info-box-icon"><i class="fa fa-thumbs-o-up"></i></span>
+              <span class="info-box-icon"><i class="far fa-thumbs-up"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Likes</span>
@@ -349,7 +346,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <!-- /.col -->
           <div class="col-md-3 col-sm-6 col-12">
             <div class="info-box bg-warning">
-              <span class="info-box-icon"><i class="fa fa-calendar"></i></span>
+              <span class="info-box-icon"><i class="far fa-calendar-alt"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Events</span>
@@ -369,7 +366,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <!-- /.col -->
           <div class="col-md-3 col-sm-6 col-12">
             <div class="info-box bg-danger">
-              <span class="info-box-icon"><i class="fa fa-comments-o"></i></span>
+              <span class="info-box-icon"><i class="fas fa-comments"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Comments</span>
@@ -391,11 +388,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- /.row -->
 
         <!-- =========================================================== -->
-        <h5 class="mt-4 mb-2">Info Box With <code>bg-*-gradient</code></h5>
+        <h5 class="mt-4 mb-2">Info Box With <code>bg-gradient-*</code></h5>
         <div class="row">
           <div class="col-md-3 col-sm-6 col-12">
-            <div class="info-box bg-info-gradient">
-              <span class="info-box-icon"><i class="fa fa-bookmark-o"></i></span>
+            <div class="info-box bg-gradient-info">
+              <span class="info-box-icon"><i class="far fa-bookmark"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Bookmarks</span>
@@ -414,8 +411,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </div>
           <!-- /.col -->
           <div class="col-md-3 col-sm-6 col-12">
-            <div class="info-box bg-success-gradient">
-              <span class="info-box-icon"><i class="fa fa-thumbs-o-up"></i></span>
+            <div class="info-box bg-gradient-success">
+              <span class="info-box-icon"><i class="far fa-thumbs-up"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Likes</span>
@@ -434,8 +431,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </div>
           <!-- /.col -->
           <div class="col-md-3 col-sm-6 col-12">
-            <div class="info-box bg-warning-gradient">
-              <span class="info-box-icon"><i class="fa fa-calendar"></i></span>
+            <div class="info-box bg-gradient-warning">
+              <span class="info-box-icon"><i class="far fa-calendar-alt"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Events</span>
@@ -454,8 +451,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </div>
           <!-- /.col -->
           <div class="col-md-3 col-sm-6 col-12">
-            <div class="info-box bg-danger-gradient">
-              <span class="info-box-icon"><i class="fa fa-comments-o"></i></span>
+            <div class="info-box bg-gradient-danger">
+              <span class="info-box-icon"><i class="fas fa-comments"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Comments</span>
@@ -490,10 +487,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <p>New Orders</p>
               </div>
               <div class="icon">
-                <i class="fa fa-shopping-cart"></i>
+                <i class="fas fa-shopping-cart"></i>
               </div>
               <a href="#" class="small-box-footer">
-                More info <i class="fa fa-arrow-circle-right"></i>
+                More info <i class="fas fa-arrow-circle-right"></i>
               </a>
             </div>
           </div>
@@ -510,7 +507,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <i class="ion ion-stats-bars"></i>
               </div>
               <a href="#" class="small-box-footer">
-                More info <i class="fa fa-arrow-circle-right"></i>
+                More info <i class="fas fa-arrow-circle-right"></i>
               </a>
             </div>
           </div>
@@ -524,10 +521,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <p>User Registrations</p>
               </div>
               <div class="icon">
-                <i class="ion ion-person-add"></i>
+                <i class="fas fa-user-plus"></i>
               </div>
               <a href="#" class="small-box-footer">
-                More info <i class="fa fa-arrow-circle-right"></i>
+                More info <i class="fas fa-arrow-circle-right"></i>
               </a>
             </div>
           </div>
@@ -541,10 +538,59 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <p>Unique Visitors</p>
               </div>
               <div class="icon">
-                <i class="ion ion-pie-graph"></i>
+                <i class="fas fa-chart-pie"></i>
               </div>
               <a href="#" class="small-box-footer">
-                More info <i class="fa fa-arrow-circle-right"></i>
+                More info <i class="fas fa-arrow-circle-right"></i>
+              </a>
+            </div>
+          </div>
+          <!-- ./col -->
+        </div>
+        <!-- /.row -->
+
+        <!-- Small Box (Stat card) -->
+        <div class="row">
+          <div class="col-lg-3 col-6">
+            <!-- small card -->
+            <div class="small-box bg-info">
+              <!-- Loading (remove the following to stop the loading)-->
+              <div class="overlay">
+                <i class="fas fa-3x fa-sync-alt"></i>
+              </div>
+              <!-- end loading -->
+              <div class="inner">
+                <h3>150</h3>
+
+                <p>New Orders</p>
+              </div>
+              <div class="icon">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+              <a href="#" class="small-box-footer">
+                More info <i class="fas fa-arrow-circle-right"></i>
+              </a>
+            </div>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small card -->
+            <div class="small-box bg-success">
+              <!-- Loading (remove the following to stop the loading)-->
+              <div class="overlay dark">
+                <i class="fas fa-3x fa-sync-alt"></i>
+              </div>
+              <!-- end loading -->
+              <div class="inner">
+                <h3>53<sup style="font-size: 20px">%</sup></h3>
+
+                <p>Bounce Rate</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+              </div>
+              <a href="#" class="small-box-footer">
+                More info <i class="fas fa-arrow-circle-right"></i>
               </a>
             </div>
           </div>
@@ -554,14 +600,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
         <!-- =========================================================== -->
         <h4 class="mb-2 mt-4">Cards</h4>
+        <h5 class="mb-2">Abilities</h5>
         <div class="row">
           <div class="col-md-3">
-            <div class="card card-default collapsed-card">
+            <div class="card card-primary collapsed-card">
               <div class="card-header">
                 <h3 class="card-title">Expandable</h3>
 
                 <div class="card-tools">
-                  <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-plus"></i>
                   </button>
                 </div>
                 <!-- /.card-tools -->
@@ -578,10 +625,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <div class="col-md-3">
             <div class="card card-success">
               <div class="card-header">
-                <h3 class="card-title">Removable</h3>
+                <h3 class="card-title">Collapsable</h3>
 
                 <div class="card-tools">
-                  <button type="button" class="btn btn-tool" data-widget="remove"><i class="fa fa-times"></i>
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
                   </button>
                 </div>
                 <!-- /.card-tools -->
@@ -598,10 +645,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <div class="col-md-3">
             <div class="card card-warning">
               <div class="card-header">
-                <h3 class="card-title">Collapsable</h3>
+                <h3 class="card-title">Removable</h3>
 
                 <div class="card-tools">
-                  <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                  <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i>
                   </button>
                 </div>
                 <!-- /.card-tools -->
@@ -618,6 +665,74 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <div class="col-md-3">
             <div class="card card-danger">
               <div class="card-header">
+                <h3 class="card-title">Maximizable</h3>
+
+                <div class="card-tools">
+                  <button type="button" class="btn btn-tool" data-card-widget="maximize"><i class="fas fa-expand"></i>
+                  </button>
+                </div>
+                <!-- /.card-tools -->
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                The body of the card
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card card-primary">
+              <div class="card-header">
+                <h3 class="card-title">Card Refresh</h3>
+
+                <div class="card-tools">
+                  <button type="button" class="btn btn-tool" data-card-widget="card-refresh" data-source="widgets.html" data-source-selector="#card-refresh-content"><i class="fas fa-sync-alt"></i></button>
+                </div>
+                <!-- /.card-tools -->
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                The body of the card
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+            <div class="d-none" id="card-refresh-content">
+                The body of the card after card refresh
+            </div>
+          </div>
+          <!-- /.col -->
+          <div class="col-md-3">
+            <div class="card card-success">
+              <div class="card-header">
+                <h3 class="card-title">All together</h3>
+
+                <div class="card-tools">
+                  <button type="button" class="btn btn-tool" data-card-widget="card-refresh" data-source="widgets.html" data-source-selector="#card-refresh-content" data-load-on-init="false"><i class="fas fa-sync-alt"></i></button>
+                  <button type="button" class="btn btn-tool" data-card-widget="maximize"><i class="fas fa-expand"></i></button>
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
+                  <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i></button>
+                </div>
+                <!-- /.card-tools -->
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                The body of the card
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+          <div class="col-md-3">
+            <div class="card card-warning">
+              <div class="card-header">
                 <h3 class="card-title">Loading state</h3>
               </div>
               <div class="card-body">
@@ -626,7 +741,25 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <!-- /.card-body -->
               <!-- Loading (remove the following to stop the loading)-->
               <div class="overlay">
-                <i class="fa fa-refresh fa-spin"></i>
+                <i class="fas fa-2x fa-sync-alt"></i>
+              </div>
+              <!-- end loading -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+          <div class="col-md-3">
+            <div class="card card-danger">
+              <div class="card-header">
+                <h3 class="card-title">Loading state (dark)</h3>
+              </div>
+              <div class="card-body">
+                The body of the card
+              </div>
+              <!-- /.card-body -->
+              <!-- Loading (remove the following to stop the loading)-->
+              <div class="overlay dark">
+                <i class="fas fa-2x fa-sync-alt"></i>
               </div>
               <!-- end loading -->
             </div>
@@ -638,14 +771,16 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
         <!-- =========================================================== -->
 
+        <h5 class="mb-2">Colors Variations</h5>
+
         <div class="row">
           <div class="col-md-3">
-            <div class="card card-info collapsed-card card-outline">
+            <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Expandable</h3>
+                <h3 class="card-title">Primary Outline</h3>
 
                 <div class="card-tools">
-                  <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
                   </button>
                 </div>
                 <!-- /.card-tools -->
@@ -660,13 +795,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </div>
           <!-- /.col -->
           <div class="col-md-3">
-            <div class="card card-success card-outline">
+            <div class="card card-success">
               <div class="card-header">
-                <h3 class="card-title">Removable</h3>
+                <h3 class="card-title">Success Outline</h3>
 
                 <div class="card-tools">
-                  <button type="button" class="btn btn-tool" data-widget="remove">
-                    <i class="fa fa-times"></i>
+                  <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i>
                   </button>
                 </div>
                 <!-- /.card-tools -->
@@ -681,12 +815,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </div>
           <!-- /.col -->
           <div class="col-md-3">
-            <div class="card card-warning card-outline">
+            <div class="card card-warning">
               <div class="card-header">
                 <h3 class="card-title">Warning Outline</h3>
 
                 <div class="card-tools">
-                  <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
                   </button>
                 </div>
                 <!-- /.card-tools -->
@@ -701,7 +835,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </div>
           <!-- /.col -->
           <div class="col-md-3">
-            <div class="card card-danger card-outline">
+            <div class="card card-danger">
               <div class="card-header">
                 <h3 class="card-title">Danger Outline</h3>
               </div>
@@ -716,16 +850,168 @@ scratch. This page gets rid of all links and provides the needed markup only.
         </div>
         <!-- /.row -->
 
-        <!-- =========================================================== -->
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card card-outline card-primary">
+              <div class="card-header">
+                <h3 class="card-title">Primary Outline</h3>
+
+                <div class="card-tools">
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
+                  </button>
+                </div>
+                <!-- /.card-tools -->
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                The body of the card
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+          <div class="col-md-3">
+            <div class="card card-outline card-success">
+              <div class="card-header">
+                <h3 class="card-title">Success Outline</h3>
+
+                <div class="card-tools">
+                  <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i>
+                  </button>
+                </div>
+                <!-- /.card-tools -->
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                The body of the card
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+          <div class="col-md-3">
+            <div class="card card-outline card-warning">
+              <div class="card-header">
+                <h3 class="card-title">Warning Outline</h3>
+
+                <div class="card-tools">
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
+                  </button>
+                </div>
+                <!-- /.card-tools -->
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                The body of the card
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+          <div class="col-md-3">
+            <div class="card card-outline card-danger">
+              <div class="card-header">
+                <h3 class="card-title">Danger Outline</h3>
+              </div>
+              <div class="card-body">
+                The body of the card
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
 
         <div class="row">
           <div class="col-md-3">
-            <div class="card bg-primary-gradient">
+            <div class="card bg-primary">
+              <div class="card-header">
+                <h3 class="card-title">Primary</h3>
+
+                <div class="card-tools">
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
+                  </button>
+                </div>
+                <!-- /.card-tools -->
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                The body of the card
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+          <div class="col-md-3">
+            <div class="card bg-success">
+              <div class="card-header">
+                <h3 class="card-title">Success</h3>
+
+                <div class="card-tools">
+                  <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i>
+                  </button>
+                </div>
+                <!-- /.card-tools -->
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                The body of the card
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+          <div class="col-md-3">
+            <div class="card bg-warning">
+              <div class="card-header">
+                <h3 class="card-title">Warning</h3>
+
+                <div class="card-tools">
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
+                  </button>
+                </div>
+                <!-- /.card-tools -->
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                The body of the card
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+          <div class="col-md-3">
+            <div class="card bg-danger">
+              <div class="card-header">
+                <h3 class="card-title">Danger</h3>
+              </div>
+              <div class="card-body">
+                The body of the card
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card bg-gradient-primary">
               <div class="card-header">
                 <h3 class="card-title">Primary Gradient</h3>
 
                 <div class="card-tools">
-                  <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
                   </button>
                 </div>
                 <!-- /.card-tools -->
@@ -740,12 +1026,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </div>
           <!-- /.col -->
           <div class="col-md-3">
-            <div class="card bg-success-gradient">
+            <div class="card bg-gradient-success">
               <div class="card-header">
                 <h3 class="card-title">Success Gradient</h3>
 
                 <div class="card-tools">
-                  <button type="button" class="btn btn-tool" data-widget="remove"><i class="fa fa-times"></i>
+                  <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i>
                   </button>
                 </div>
                 <!-- /.card-tools -->
@@ -760,12 +1046,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </div>
           <!-- /.col -->
           <div class="col-md-3">
-            <div class="card bg-warning-gradient">
+            <div class="card bg-gradient-warning">
               <div class="card-header">
                 <h3 class="card-title">Warning Gradient</h3>
 
                 <div class="card-tools">
-                  <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
                   </button>
                 </div>
                 <!-- /.card-tools -->
@@ -780,7 +1066,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </div>
           <!-- /.col -->
           <div class="col-md-3">
-            <div class="card bg-danger-gradient">
+            <div class="card bg-gradient-danger">
               <div class="card-header">
                 <h3 class="card-title">Danger Gradient</h3>
               </div>
@@ -802,18 +1088,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div class="row">
           <div class="col-md-3">
             <!-- DIRECT CHAT PRIMARY -->
-            <div class="card card-primary card-outline direct-chat direct-chat-primary">
+            <div class="card card-prirary cardutline direct-chat direct-chat-primary">
               <div class="card-header">
                 <h3 class="card-title">Direct Chat</h3>
 
                 <div class="card-tools">
                   <span data-toggle="tooltip" title="3 New Messages" class="badge bg-primary">3</span>
-                  <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
                   </button>
                   <button type="button" class="btn btn-tool" data-toggle="tooltip" title="Contacts"
                           data-widget="chat-pane-toggle">
-                    <i class="fa fa-comments"></i></button>
-                  <button type="button" class="btn btn-tool" data-widget="remove"><i class="fa fa-times"></i>
+                    <i class="fas fa-comments"></i></button>
+                  <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i>
                   </button>
                 </div>
               </div>
@@ -823,11 +1109,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <div class="direct-chat-messages">
                   <!-- Message. Default to the left -->
                   <div class="direct-chat-msg">
-                    <div class="direct-chat-info clearfix">
+                    <div class="direct-chat-infos clearfix">
                       <span class="direct-chat-name float-left">Alexander Pierce</span>
                       <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
                     </div>
-                    <!-- /.direct-chat-info -->
+                    <!-- /.direct-chat-infos -->
                     <img class="direct-chat-img" src="../img/user1-128x128.jpg" alt="Message User Image">
                     <!-- /.direct-chat-img -->
                     <div class="direct-chat-text">
@@ -839,11 +1125,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
                   <!-- Message to the right -->
                   <div class="direct-chat-msg right">
-                    <div class="direct-chat-info clearfix">
+                    <div class="direct-chat-infos clearfix">
                       <span class="direct-chat-name float-right">Sarah Bullock</span>
                       <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
                     </div>
-                    <!-- /.direct-chat-info -->
+                    <!-- /.direct-chat-infos -->
                     <img class="direct-chat-img" src="../img/user3-128x128.jpg" alt="Message User Image">
                     <!-- /.direct-chat-img -->
                     <div class="direct-chat-text">
@@ -897,18 +1183,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
           <div class="col-md-3">
             <!-- DIRECT CHAT SUCCESS -->
-            <div class="card card-success card-outline direct-chat direct-chat-success">
+            <div class="card card-sucress cardutline direct-chat direct-chat-success">
               <div class="card-header">
                 <h3 class="card-title">Direct Chat</h3>
 
                 <div class="card-tools">
                   <span data-toggle="tooltip" title="3 New Messages" class="badge bg-success">3</span>
-                  <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
                   </button>
                   <button type="button" class="btn btn-tool" data-toggle="tooltip" title="Contacts"
                           data-widget="chat-pane-toggle">
-                    <i class="fa fa-comments"></i></button>
-                  <button type="button" class="btn btn-tool" data-widget="remove"><i class="fa fa-times"></i>
+                    <i class="fas fa-comments"></i></button>
+                  <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i>
                   </button>
                 </div>
               </div>
@@ -918,11 +1204,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <div class="direct-chat-messages">
                   <!-- Message. Default to the left -->
                   <div class="direct-chat-msg">
-                    <div class="direct-chat-info clearfix">
+                    <div class="direct-chat-infos clearfix">
                       <span class="direct-chat-name float-left">Alexander Pierce</span>
                       <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
                     </div>
-                    <!-- /.direct-chat-info -->
+                    <!-- /.direct-chat-infos -->
                     <img class="direct-chat-img" src="../img/user1-128x128.jpg" alt="Message User Image">
                     <!-- /.direct-chat-img -->
                     <div class="direct-chat-text">
@@ -934,11 +1220,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
                   <!-- Message to the right -->
                   <div class="direct-chat-msg right">
-                    <div class="direct-chat-info clearfix">
+                    <div class="direct-chat-infos clearfix">
                       <span class="direct-chat-name float-right">Sarah Bullock</span>
                       <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
                     </div>
-                    <!-- /.direct-chat-info -->
+                    <!-- /.direct-chat-infos -->
                     <img class="direct-chat-img" src="../img/user3-128x128.jpg" alt="Message User Image">
                     <!-- /.direct-chat-img -->
                     <div class="direct-chat-text">
@@ -998,12 +1284,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
                 <div class="card-tools">
                   <span data-toggle="tooltip" title="3 New Messages" class="badge bg-danger">3</span>
-                  <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
                   </button>
                   <button type="button" class="btn btn-tool" data-toggle="tooltip" title="Contacts"
                           data-widget="chat-pane-toggle">
-                    <i class="fa fa-comments"></i></button>
-                  <button type="button" class="btn btn-tool" data-widget="remove"><i class="fa fa-times"></i>
+                    <i class="fas fa-comments"></i></button>
+                  <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i>
                   </button>
                 </div>
               </div>
@@ -1013,11 +1299,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <div class="direct-chat-messages">
                   <!-- Message. Default to the left -->
                   <div class="direct-chat-msg">
-                    <div class="direct-chat-info clearfix">
+                    <div class="direct-chat-infos clearfix">
                       <span class="direct-chat-name float-left">Alexander Pierce</span>
                       <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
                     </div>
-                    <!-- /.direct-chat-info -->
+                    <!-- /.direct-chat-infos -->
                     <img class="direct-chat-img" src="../img/user1-128x128.jpg" alt="Message User Image">
                     <!-- /.direct-chat-img -->
                     <div class="direct-chat-text">
@@ -1029,11 +1315,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
                   <!-- Message to the right -->
                   <div class="direct-chat-msg right">
-                    <div class="direct-chat-info clearfix">
+                    <div class="direct-chat-infos clearfix">
                       <span class="direct-chat-name float-right">Sarah Bullock</span>
                       <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
                     </div>
-                    <!-- /.direct-chat-info -->
+                    <!-- /.direct-chat-infos -->
                     <img class="direct-chat-img" src="../img/user3-128x128.jpg" alt="Message User Image">
                     <!-- /.direct-chat-img -->
                     <div class="direct-chat-text">
@@ -1093,12 +1379,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
                 <div class="card-tools">
                   <span data-toggle="tooltip" title="3 New Messages" class="badge">3</span>
-                  <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
                   </button>
                   <button type="button" class="btn btn-tool" data-toggle="tooltip" title="Contacts"
                           data-widget="chat-pane-toggle">
-                    <i class="fa fa-comments"></i></button>
-                  <button type="button" class="btn btn-tool" data-widget="remove"><i class="fa fa-times"></i>
+                    <i class="fas fa-comments"></i></button>
+                  <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i>
                   </button>
                 </div>
               </div>
@@ -1108,11 +1394,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <div class="direct-chat-messages">
                   <!-- Message. Default to the left -->
                   <div class="direct-chat-msg">
-                    <div class="direct-chat-info clearfix">
+                    <div class="direct-chat-infos clearfix">
                       <span class="direct-chat-name float-left">Alexander Pierce</span>
                       <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
                     </div>
-                    <!-- /.direct-chat-info -->
+                    <!-- /.direct-chat-infos -->
                     <img class="direct-chat-img" src="../img/user1-128x128.jpg" alt="Message User Image">
                     <!-- /.direct-chat-img -->
                     <div class="direct-chat-text">
@@ -1124,11 +1410,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
                   <!-- Message to the right -->
                   <div class="direct-chat-msg right">
-                    <div class="direct-chat-info clearfix">
+                    <div class="direct-chat-infos clearfix">
                       <span class="direct-chat-name float-right">Sarah Bullock</span>
                       <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
                     </div>
-                    <!-- /.direct-chat-info -->
+                    <!-- /.direct-chat-infos -->
                     <img class="direct-chat-img" src="../img/user3-128x128.jpg" alt="Message User Image">
                     <!-- /.direct-chat-img -->
                     <div class="direct-chat-text">
@@ -1191,7 +1477,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <!-- Add the bg color to the header using any of the bg-* classes -->
               <div class="widget-user-header bg-warning">
                 <div class="widget-user-image">
-                  <img class="../img-circle elevation-2" src="../img/user7-128x128.jpg" alt="User Avatar">
+                  <img class="img-circle elevation-2" src="../img/user7-128x128.jpg" alt="User Avatar">
                 </div>
                 <!-- /.widget-user-image -->
                 <h3 class="widget-user-username">Nadia Carmichael</h3>
@@ -1229,12 +1515,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- Widget: user widget style 1 -->
             <div class="card card-widget widget-user">
               <!-- Add the bg color to the header using any of the bg-* classes -->
-              <div class="widget-user-header bg-info-active">
+              <div class="widget-user-header bg-info">
                 <h3 class="widget-user-username">Alexander Pierce</h3>
                 <h5 class="widget-user-desc">Founder & CEO</h5>
               </div>
               <div class="widget-user-image">
-                <img class="../img-circle elevation-2" src="../img/user1-128x128.jpg" alt="User Avatar">
+                <img class="img-circle elevation-2" src="../img/user1-128x128.jpg" alt="User Avatar">
               </div>
               <div class="card-footer">
                 <div class="row">
@@ -1275,11 +1561,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <!-- Add the bg color to the header using any of the bg-* classes -->
               <div class="widget-user-header text-white"
                    style="background: url('../img/photo1.png') center center;">
-                <h3 class="widget-user-username">Elizabeth Pierce</h3>
-                <h5 class="widget-user-desc">Web Designer</h5>
+                <h3 class="widget-user-username text-right">Elizabeth Pierce</h3>
+                <h5 class="widget-user-desc text-right">Web Designer</h5>
               </div>
               <div class="widget-user-image">
-                <img class="../img-circle" src="../img/user3-128x128.jpg" alt="User Avatar">
+                <img class="img-circle" src="../img/user3-128x128.jpg" alt="User Avatar">
               </div>
               <div class="card-footer">
                 <div class="row">
@@ -1323,35 +1609,35 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <div class="card card-widget">
               <div class="card-header">
                 <div class="user-block">
-                  <img class="../img-circle" src="../img/user1-128x128.jpg" alt="User Image">
+                  <img class="img-circle" src="../img/user1-128x128.jpg" alt="User Image">
                   <span class="username"><a href="#">Jonathan Burke Jr.</a></span>
                   <span class="description">Shared publicly - 7:30 PM Today</span>
                 </div>
                 <!-- /.user-block -->
                 <div class="card-tools">
                   <button type="button" class="btn btn-tool" data-toggle="tooltip" title="Mark as read">
-                    <i class="fa fa-circle-o"></i></button>
-                  <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                    <i class="far fa-circle"></i></button>
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
                   </button>
-                  <button type="button" class="btn btn-tool" data-widget="remove"><i class="fa fa-times"></i>
+                  <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i>
                   </button>
                 </div>
                 <!-- /.card-tools -->
               </div>
               <!-- /.card-header -->
               <div class="card-body">
-                <img class="../img-fluid pad" src="../img/photo2.png" alt="Photo">
+                <img class="img-fluid pad" src="../img/photo2.png" alt="Photo">
 
                 <p>I took this photo this morning. What do you guys think?</p>
-                <button type="button" class="btn btn-default btn-sm"><i class="fa fa-share"></i> Share</button>
-                <button type="button" class="btn btn-default btn-sm"><i class="fa fa-thumbs-o-up"></i> Like</button>
+                <button type="button" class="btn btn-default btn-sm"><i class="fas fa-share"></i> Share</button>
+                <button type="button" class="btn btn-default btn-sm"><i class="far fa-thumbs-up"></i> Like</button>
                 <span class="float-right text-muted">127 likes - 3 comments</span>
               </div>
               <!-- /.card-body -->
               <div class="card-footer card-comments">
                 <div class="card-comment">
                   <!-- User image -->
-                  <img class="../img-circle img-sm" src="../img/user3-128x128.jpg" alt="User Image">
+                  <img class="img-circle img-sm" src="../img/user3-128x128.jpg" alt="User Image">
 
                   <div class="comment-text">
                     <span class="username">
@@ -1366,7 +1652,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <!-- /.card-comment -->
                 <div class="card-comment">
                   <!-- User image -->
-                  <img class="../img-circle img-sm" src="../img/user4-128x128.jpg" alt="User Image">
+                  <img class="img-circle img-sm" src="../img/user4-128x128.jpg" alt="User Image">
 
                   <div class="comment-text">
                     <span class="username">
@@ -1383,9 +1669,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <!-- /.card-footer -->
               <div class="card-footer">
                 <form action="#" method="post">
-                  <img class="../img-fluid img-circle img-sm" src="../img/user4-128x128.jpg" alt="Alt Text">
+                  <img class="img-fluid img-circle img-sm" src="../img/user4-128x128.jpg" alt="Alt Text">
                   <!-- .img-push is used to add margin to elements next to floating images -->
-                  <div class="../img-push">
+                  <div class="img-push">
                     <input type="text" class="form-control form-control-sm" placeholder="Press enter to post comment">
                   </div>
                 </form>
@@ -1400,17 +1686,17 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <div class="card card-widget">
               <div class="card-header">
                 <div class="user-block">
-                  <img class="../img-circle" src="../img/user1-128x128.jpg" alt="User Image">
+                  <img class="img-circle" src="../img/user1-128x128.jpg" alt="User Image">
                   <span class="username"><a href="#">Jonathan Burke Jr.</a></span>
                   <span class="description">Shared publicly - 7:30 PM Today</span>
                 </div>
                 <!-- /.user-block -->
                 <div class="card-tools">
                   <button type="button" class="btn btn-tool" data-toggle="tooltip" title="Mark as read">
-                    <i class="fa fa-circle-o"></i></button>
-                  <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                    <i class="far fa-circle"></i></button>
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
                   </button>
-                  <button type="button" class="btn btn-tool" data-widget="remove"><i class="fa fa-times"></i>
+                  <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i>
                   </button>
                 </div>
                 <!-- /.card-tools -->
@@ -1446,15 +1732,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <!-- /.attachment-block -->
 
                 <!-- Social sharing buttons -->
-                <button type="button" class="btn btn-default btn-sm"><i class="fa fa-share"></i> Share</button>
-                <button type="button" class="btn btn-default btn-sm"><i class="fa fa-thumbs-o-up"></i> Like</button>
+                <button type="button" class="btn btn-default btn-sm"><i class="fas fa-share"></i> Share</button>
+                <button type="button" class="btn btn-default btn-sm"><i class="far fa-thumbs-up"></i> Like</button>
                 <span class="float-right text-muted">45 likes - 2 comments</span>
               </div>
               <!-- /.card-body -->
               <div class="card-footer card-comments">
                 <div class="card-comment">
                   <!-- User image -->
-                  <img class="../img-circle img-sm" src="../img/user3-128x128.jpg" alt="User Image">
+                  <img class="img-circle img-sm" src="../img/user3-128x128.jpg" alt="User Image">
 
                   <div class="comment-text">
                     <span class="username">
@@ -1469,14 +1755,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <!-- /.card-comment -->
                 <div class="card-comment">
                   <!-- User image -->
-                  <img class="../img-circle img-sm" src="../img/user5-128x128.jpg" alt="User Image">
+                  <img class="img-circle img-sm" src="../img/user5-128x128.jpg" alt="User Image">
 
                   <div class="comment-text">
                     <span class="username">
                       Nora Havisham
                       <span class="text-muted float-right">8:03 PM Today</span>
                     </span><!-- /.username -->
-                    The point of using Lorem Ipsum is that it has a more-or-less
+                    The point of using Lorem Ipsum is that it hrs a morer-less
                     normal distribution of letters, as opposed to using
                     'Content here, content here', making it look like readable English.
                   </div>
@@ -1487,9 +1773,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <!-- /.card-footer -->
               <div class="card-footer">
                 <form action="#" method="post">
-                  <img class="../img-fluid img-circle img-sm" src="../img/user4-128x128.jpg" alt="Alt Text">
+                  <img class="img-fluid img-circle img-sm" src="../img/user4-128x128.jpg" alt="Alt Text">
                   <!-- .img-push is used to add margin to elements next to floating images -->
-                  <div class="../img-push">
+                  <div class="img-push">
                     <input type="text" class="form-control form-control-sm" placeholder="Press enter to post comment">
                   </div>
                 </form>
@@ -1504,28 +1790,26 @@ scratch. This page gets rid of all links and provides the needed markup only.
       </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->
+
+    <a id="back-to-top" href="#" class="btn btn-primary back-to-top" role="button" aria-label="Scroll to top">
+      <i class="fas fa-chevron-up"></i>
+    </a>
   </div>
   <!-- /.content-wrapper -->
+
+  <footer class="main-footer">
+    <div class="float-right d-none d-sm-block">
+      <b>Version</b> 3.0.5
+    </div>
+    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong> All rights
+    reserved.
+  </footer>
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
     <!-- Control sidebar content goes here -->
-    <div class="p-3">
-      <h5>Title</h5>
-      <p>Sidebar content</p>
-    </div>
   </aside>
   <!-- /.control-sidebar -->
-
-  <!-- Main Footer -->
-  <footer class="main-footer">
-    <!-- To the right -->
-    <div class="float-right d-none d-sm-inline">
-      Anything you want
-    </div>
-    <!-- Default to the left -->
-    <strong>Copyright &copy; 2014-2018 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
-  </footer>
 </div>
 <!-- ./wrapper -->
 
