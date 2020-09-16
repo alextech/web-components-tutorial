@@ -10,10 +10,10 @@ You can use issue tracker to report problems or suggestions.
 
 Before starting the application install [Node.js](https://nodejs.org) and [Browsersync](https://browsersync.io).
 
-To start application, from within `src` directory run
+To start application:
 
 ```shell
-browser-sync start --server --files="**/*"
+npm run
 ```
 
 To run unit tests, install needed dependencies with
