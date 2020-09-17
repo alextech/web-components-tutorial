@@ -1,28 +1,29 @@
-# Web Components Tutorial Repository
+# Репозиторий для уроков по Веб Компонентам
 
-These are sources for tutorials published at [Alex Tech Adventures](http://alex-tech-adventures.com) and
-[YouTube](https://www.youtube.com/playlist?list=PLXRC3l-ZhN3oVg9Wk7A7i6Qv_BXTrntZb).
-The tutorial is derived from Admin LTE template at [AdminLTE repository](https://github.com/almasaeed2010/AdminLTE). The idea is to convirt the template into reusable components without a framework, only HTML standards.
+Исходный код для уроков на [Alex Tech Adventures](http://alex-tech-adventures.com) и
+[YouTube](https://www.youtube.com/playlist?list=PLFGi3YAUikCauGEC50jifQhtFE4j28xUM).
+Уроки созданы на основе шаблона AdminLTE [AdminLTE repository](https://github.com/almasaeed2010/AdminLTE). 
+Идея в том, чтобы переписать шаблоны в полноценные компоненты без особых фреймворок, используя только HTML стандарты.
 
-You can use issue tracker to report problems or suggestions.
+Можно использовать github issues для обратной связи о проблеммах и предложений.
 
 ---
 
-Before starting the application install [Node.js](https://nodejs.org) and [Browsersync](https://browsersync.io).
+Первым делом, установите [Node.js](https://nodejs.org) и [Browsersync](https://browsersync.io).
 
-To start application:
+Запустите приложение через:
 
 ```shell
 npm run
 ```
 
-To run unit tests, install needed dependencies with
+Для выполнения тестов, загрузите зависимости
 
 ```shell
 npm install
 ```
 
-then run tests from within IDE or with
+и прогоните их из редактора или через коммандную строку
 
 ```shell
 npm test
@@ -30,7 +31,7 @@ npm test
 
 ---
 
-Thank you very much for the donation offers! These tutorials are very long to produce.  Extra donations
-will help towards doing this work sustainably without going on extended breaks.
+Спасибо за пожертвования! Эти уроки очень долго записывать. Дополнительный доход
+поможет это делать без длительных перерывовю
 
 [![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PET8HPTAH3BVU)
