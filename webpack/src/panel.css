@@ -1,0 +1,25 @@
+.panel {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+.panel .title {
+    padding: 0.5em;
+    background-color: #EA9439;
+    color: #ffffff;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel .panelContent {
+    padding: 1em;
+    background-color: #ffffff;
+}
+
+svg[slot="icons"] {
+    width: 1em;
+    margin-left: 0.4em;
+    cursor: pointer;
+}
