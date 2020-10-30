@@ -1,3 +1,5 @@
+import sheets from "../style.js";
+
 export default class Panel extends HTMLElement {
   constructor() {
     super();
@@ -21,6 +23,8 @@ export default class Panel extends HTMLElement {
       <!-- /.card-body -->
     </div>
     `;
+
+    this.shadowRoot.adoptedStyleSheets = sheets;
   }
 }
 
