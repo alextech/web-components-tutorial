@@ -1,12 +1,10 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const NodeExternals = require('webpack-node-externals');
 
 module.exports = {
     mode: 'development',
     // next two lines, to avoid node_modules from being bundled in its entirety
-    target: 'node',
-    externals: [NodeExternals()],
+    target: 'web',
     entry: {
         demo: './src/index.js',
     },
@@ -42,7 +40,6 @@ module.exports = {
     },
     module: {
         rules: [
-            {test: /\.js$/, exclude: /node_modules/},
             {
                 test: /\.css$/,
                 use: [
