@@ -1,4 +1,4 @@
-import style from './panel.css';
+import style from './tailwind.css';
 
 const panelTpl = document.createElement('template');
 panelTpl.innerHTML =

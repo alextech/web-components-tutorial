@@ -8,11 +8,15 @@
     "build": "webpack --config webpack.config.js",
     "start": "webpack-dev-server --hot"
   },
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  },
   "devDependencies": {
-    "constructable-style-loader": "^1.0.0-alpha.2",
+    "constructable-style-loader": "^1.0.0-alpha.3",
+    "html-webpack-plugin": "^4.5.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.0"
-  },
-  "dependencies": {}
+    "webpack-dev-server": "^3.11.0",
+    "webpack-node-externals": "^2.5.2"
+  }
 }
