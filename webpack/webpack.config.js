@@ -48,7 +48,7 @@ module.exports = {
                         options: {
                             // purge: true,
                             content: ['**/*.js'],
-                            whitelist: ['white-listed']
+                            safelist: ['white-listed']
                         }
                     },
                     'postcss-loader'
